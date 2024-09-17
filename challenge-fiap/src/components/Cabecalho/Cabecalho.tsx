@@ -14,7 +14,7 @@ export default function Cabecalho() {
                             <button className='login-button'>Inicio</button>
                         </Link>
 
-                        <Link to='/login'>
+                        <Link to='/cliente'>
                             <button className='login-button'>Area do Cliente</button>
                         </Link>
 
