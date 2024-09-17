@@ -1,0 +1,396 @@
+.challenge {
+    background-color: #defdf0;
+    width: 100%;
+  }
+  
+  /* .challenge .div {
+    background-color: #defdf0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+  } */
+  
+  .challenge .cabecalho {
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 0;
+    left: 0;
+    background-color: #defdf0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  
+  .challenge .fundo {
+    position: absolute;
+    width: 100%;
+    height: 140%;
+    top: 30%;
+    left: 0;
+    background: linear-gradient(180deg, #4688b7 0%, #defef1 100%);
+  }
+  .login-button{
+    background-color: #4688b7;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-style: normal;
+    text-decoration: none;
+    margin: 10px;
+    padding: 15px 15px;
+    border-radius: 15px;
+  }
+  /* .login-button{
+    background-color: #4688b7;
+    color: #fff;
+    font-family: Trebuchet MS;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 0px solid #000;
+    border-radius: 10px;
+    right: 50px;
+    position: absolute;
+
+   } */
+   .challenge .login-button:hover{
+    background-color: #6898bf;
+   }
+   .challenge .login-button:active{
+    transform: scale(0.95);
+   }
+  
+  .challenge .porto {
+    width: 270px;
+    height: 62px;
+    top: 671px;
+    left: 88px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .challenge .titulo-1 {
+    position: absolute;
+    top: 46px;
+    left: 51px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .um-assistente {
+    position: absolute;
+    top: 176px;
+    left: 51px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .robot {
+    position: absolute;
+    width: 492px;
+    height: 400px;
+    top: 0;
+    left: 740px;
+    object-fit: cover;
+  }
+  
+  .challenge .fiap {
+    width: 231px;
+    height: 62px;
+    top: 671px;
+    left: 900px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .challenge .oxigenio-aceleradora {
+    width: 290px;
+    height: 62px;
+    top: 671px;
+    left: 450px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  /* .challenge .line {
+    position: absolute;
+    width: 1296px;
+    height: 1px;
+    top: 76px;
+    left: 72px;
+    object-fit: cover;
+  } */
+  
+  .challenge .titulo-2 {
+    position: absolute;
+    top: 1000px;
+    left: 450px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2b4c5a;
+    font-size: 64px;
+    z-index: 1000;
+  }
+  
+  .challenge .nosso-objetivo {
+    position: relative;
+    top: 1140px;
+    left: 450px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #2b4c5a;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  
+  .challenge .overlap-group {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    top: 1490px;
+    background-color: #c9eadc;
+  }
+  
+  .challenge .copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 568px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .integrantes {
+    position: absolute;
+    top: 61px;
+    left: 405px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .links-uteis {
+    position: absolute;
+    top: 61px;
+    left: 750px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .conta {
+    position: absolute;
+    top: 61px;
+    right: 50px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .logo-2 {
+    width: 138px;
+    height: 65px;
+    top: 120px;
+    left: 105px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .challenge .giopolub-link {
+    position: absolute;
+    top: 126px;
+    left: 404px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .porto-link {
+    position: absolute;
+    top: 126px;
+    left: 780px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .oxiace-link {
+    position: absolute;
+    top: 158px;
+    left: 748px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .fiap-link {
+    position: absolute;
+    top: 190px;
+    left: 812px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .register {
+    position: absolute;
+    top: 130px;
+    right: 55px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .giovannisouzal-rm {
+    position: absolute;
+    top: 182px;
+    left: 486px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .luketa-rm {
+    position: absolute;
+    top: 229px;
+    left: 487px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .giopolub-rm {
+    position: absolute;
+    top: 135px;
+    left: 486px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .challenge .giovannisouzal-link {
+    top: 173px;
+    left: 429px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .luketa-link {
+    top: 220px;
+    left: 448px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .challenge .logo-1 {
+    width: 109px;
+    height: 50px;
+    left: 10%;
+    position: absolute;
+    object-fit: scale-down;
+  }
+  
+  .challenge .carro {
+    position: absolute;
+    width: 352px;
+    height: 352px;
+    top: 1051px;
+    left: 50px;
+    object-fit: cover;
+  }
+  ul {
+    list-style: none;
+  }
+    
+  @media (max-width: 710px){
+    .challenge .overlap-group
+    {
+      top: 1600px;
+    }
+   }
+   @media (max-width: 415px){
+    .challenge .overlap-group
+    {
+      top: 1750px;
+    }
+   }

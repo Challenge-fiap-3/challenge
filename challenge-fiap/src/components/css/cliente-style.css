@@ -1,0 +1,260 @@
+.area-cliente {
+    background-color: #defdf0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .area-cliente .div {
+    background-color: #defdf0;
+    width: 1440px;
+    height: 1176px;
+    position: relative;
+  }
+  
+  .area-cliente .fundo {
+    position: absolute;
+    width: 100%;
+    height: 672px;
+    top: 108px;
+    left: 55px;
+    background: linear-gradient(180deg, rgb(70.22, 135.73, 183.17) 0%, rgb(222, 254, 241) 100%);
+  }
+  /* .area-cliente .cabecalho {
+    position: absolute;
+    width: 1330px;
+    height: 733px;
+    left: 5px;
+  } */
+  
+  .area-cliente .texto {
+    position: absolute;
+    top: 30%;
+    left: 51px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .robot {
+    position: absolute;
+    width: 492px;
+    height: 594px;
+    top: 0;
+    left: 500px;
+    object-fit: cover;
+  }
+  
+  .area-cliente .titulo-1 {
+    position: absolute;
+    top: 46px;
+    left: 51px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .line {
+    position: absolute;
+    width: 1296px;
+    height: 1px;
+    top: 76px;
+    left: 72px;
+    object-fit: cover;
+  }
+  
+  .area-cliente .rodape {
+    position: absolute;
+    width: 1440px;
+    height: 343px;
+    top: 833px;
+    left: 0;
+    background-color: #c9eadc;
+  }
+  
+  .area-cliente .copyright {
+    position: absolute;
+    top: 317px;
+    left: 568px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .integrantes {
+    position: absolute;
+    top: 51px;
+    left: 422px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .links-uteis {
+    position: absolute;
+    top: 51px;
+    left: 867px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #2c4c5b;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .logo-2 {
+    width: 138px;
+    height: 65px;
+    top: 27px;
+    left: 105px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .area-cliente .giopolub-link {
+    top: 116px;
+    left: 421px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .porto-link {
+    position: absolute;
+    top: 116px;
+    left: 887px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .oxiace-link {
+    position: absolute;
+    top: 148px;
+    left: 855px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .fiap-link {
+    position: absolute;
+    top: 180px;
+    left: 919px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .giovannisouzal-rm {
+    position: absolute;
+    top: 182px;
+    left: 503px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .luketa-rm {
+    position: absolute;
+    top: 229px;
+    left: 504px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .giopolub-rm {
+    position: absolute;
+    top: 135px;
+    left: 503px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #73a8f8;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .area-cliente .giovannisouzal-link {
+    top: 163px;
+    left: 446px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .luketa-link {
+    top: 210px;
+    left: 465px;
+    position: absolute;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #4276c4;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .area-cliente .logo-1 {
+    width: 109px;
+    height: 51px;
+    top: 12px;
+    left: 106px;
+    position: absolute;
+    object-fit: cover;
+  }
